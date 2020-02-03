@@ -8,4 +8,4 @@ Get to know different mathematical topics heavily used in computer science and g
 
 Vincent Nozick imac classes
 
-
+Khan academy
