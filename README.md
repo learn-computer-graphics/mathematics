@@ -52,7 +52,7 @@ Get to know different mathematical topics heavily used in computer science and g
 | [Immersive Math](http://immersivemath.com/ila/index.html) | Jacob Ström, Kalle Åström, and Tomas Akenine-Möller |
 | [Collision Detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) | Jeffrey Thompson |
 
-## Videos
+### Videos
 
 | Name | Channel |
 | --- | --- |
