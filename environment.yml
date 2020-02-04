@@ -1,0 +1,6 @@
+name: maths
+dependencies:
+  - python=3.8
+  - numpy
+  - jupyter
+  - plotly=4.4
