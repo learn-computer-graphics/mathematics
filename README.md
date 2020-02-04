@@ -1,32 +1,32 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/learn-computer-graphics/mathematics/master)
 
-# Mathematics for computer graphics
+# Mathematics for Computer Graphics
 
 Get to know different mathematical topics heavily used in computer science and graphic programming. Understand how they work, when to use them and where there are typically used.
 
 ## 🚩 Table of Contents
 
 * Calculous
-  * [Derivation (WIP)](calculous/derivation.ipynb)
-  * [Integrals (WIP)](calculous/integrals.ipynb)
-  * [Root Finding (WIP)](calculous/root-finding.ipynb)
+  * [Derivation (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
+  * [Integrals (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
+  * [Root Finding (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/root-finding.ipynb)
 * Curves
-  * [Polynomial (WIP)](curves/polynomial.ipynb)
-  * [Splines (WIP)](curves/splines.ipynb)
+  * [Polynomial (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/polynomial.ipynb)
+  * [Splines (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/splines.ipynb)
 * Data Storage
   * [Floating points (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/floating-points.ipynb)
-  * [Integrers (WIP)](data-storage/integrers.ipynb)
-  * [Polynomial (WIP)](data-storage/polynomial-evaluation.ipynb)
+  * [Integrers (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/integrers.ipynb)
+  * [Polynomial (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/polynomial-evaluation.ipynb)
 * Linear Algebra
-  * [Rotation (WIP)](linear-algebra/rotation.ipynb)
+  * [Rotation (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
   * Matrices
-    * [Decomposition (WIP)](linear-algebra/matrices/decomposition.ipynb)
-    * [Inverse (WIP)](linear-algebra/matrices/inverse.ipynb)
-    * [Multiplication (WIP)](linear-algebra/matrices/multiplication.ipynb)
+    * [Decomposition (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
+    * [Inverse (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
+    * [Multiplication (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
-  * [Random (WIP)](procedural-generation/random.ipynb)
+  * [Random (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/procedural-generation/random.ipynb)
 * Statistics
-  * [Regression analysis (WIP)](statistics/regression-analysis.ipynb)
+  * [Regression analysis (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/statistics/regression-analysis.ipynb)
 
 ## 📖 Sources
 
