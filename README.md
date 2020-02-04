@@ -14,7 +14,7 @@ Get to know different mathematical topics heavily used in computer science and g
   * [Polynomial (WIP)](curves/polynomial.ipynb)
   * [Splines (WIP)](curves/splines.ipynb)
 * Data Storage
-  * [Floating points (WIP)](data-storage/floating-points.ipynb)
+  * [Floating points (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/floating-points.ipynb)
   * [Integrers (WIP)](data-storage/integrers.ipynb)
   * [Polynomial (WIP)](data-storage/polynomial-evaluation.ipynb)
 * Linear Algebra
