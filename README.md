@@ -6,27 +6,29 @@ Get to know different mathematical topics heavily used in computer science and g
 
 ## 🚩 Table of Contents
 
+*(🏗️ : Not started | 📝 : Started | ✔️ : Done )*
+
 * Calculous
-  * [Derivation (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
-  * [Integrals (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
-  * [Root Finding (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/root-finding.ipynb)
+  * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
+  * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
+  * [Root Finding 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/root-finding.ipynb)
 * Curves
-  * [Polynomial (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/polynomial.ipynb)
-  * [Splines (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/splines.ipynb)
+  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/polynomial.ipynb)
+  * [Splines 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/splines.ipynb)
 * Data Storage
-  * [Floating points (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/floating-points.ipynb)
-  * [Integrers (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/integrers.ipynb)
-  * [Polynomial (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/polynomial-evaluation.ipynb)
+  * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/floating-points.ipynb)
+  * [Integrers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/integrers.ipynb)
+  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/polynomial-evaluation.ipynb)
 * Linear Algebra
-  * [Rotation (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
+  * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
   * Matrices
-    * [Decomposition (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
-    * [Inverse (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
-    * [Multiplication (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
+    * [Decomposition 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
+    * [Inverse 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
+    * [Multiplication 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
-  * [Random (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/procedural-generation/random.ipynb)
+  * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/procedural-generation/random.ipynb)
 * Statistics
-  * [Regression analysis (WIP)](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/statistics/regression-analysis.ipynb)
+  * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/statistics/regression-analysis.ipynb)
 
 ## 📖 Sources
 
