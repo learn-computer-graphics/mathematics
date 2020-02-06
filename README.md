@@ -8,6 +8,8 @@ Get to know different mathematical topics heavily used in computer science and g
 
 *(🏗️ : Not started | 📝 : Started | ✔️ : Done )*
 
+* Algebra
+  * [Systems 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/algebra/systems.ipynb)
 * Calculous
   * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
   * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
@@ -22,7 +24,7 @@ Get to know different mathematical topics heavily used in computer science and g
 * Linear Algebra
   * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
   * Matrices
-    * [Decomposition 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
+    * [Decomposition 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
     * [Inverse 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
     * [Multiplication 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
