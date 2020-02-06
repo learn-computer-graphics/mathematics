@@ -23,7 +23,7 @@ Get to know different mathematical topics heavily used in computer science and g
   * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
   * Matrices
     * [Decomposition 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
-    * [Inverse 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
+    * [Inverse 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
     * [Multiplication 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
   * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/procedural-generation/random.ipynb)
