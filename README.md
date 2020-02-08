@@ -9,7 +9,7 @@ Get to know different mathematical topics heavily used in computer science and g
 *(🏗️ : Not started | 📝 : Started | ✔️ : Done )*
 
 * Algebra
-  * [Systems 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/algebra/systems.ipynb)
+  * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/algebra/systems.ipynb)
 * Calculous
   * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
   * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
