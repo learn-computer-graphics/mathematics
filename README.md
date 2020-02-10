@@ -2,35 +2,49 @@
 
 # Mathematics for Computer Graphics
 
-Get to know different mathematical topics heavily used in computer science and graphic programming. Understand how they work, when to use them and where there are typically used.
+Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them.
 
 ## 🚩 Table of Contents
 
-*(🏗️ : Not started | 📝 : Started | ✔️ : Done )*
+*(🏗️ : Not started | 📝 : Started | ✔️ : Written )*
+
+<details><summary>🧩 Show Classes</summary>
+<p>
 
 * Algebra
-  * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/algebra/systems.ipynb)
+  * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/algebra/systems.ipynb)
 * Calculous
-  * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/derivation.ipynb)
-  * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/integrals.ipynb)
-  * [Root Finding 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/calculous/root-finding.ipynb)
+  * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/derivation.ipynb)
+  * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/integrals.ipynb)
+  * [Root Finding 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/root-finding.ipynb)
 * Curves
-  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/polynomial.ipynb)
-  * [Splines 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/curves/splines.ipynb)
+  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/polynomial.ipynb)
+  * [Splines 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/splines.ipynb)
 * Data Storage
-  * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/floating-points.ipynb)
-  * [Integrers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/integrers.ipynb)
-  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/data-storage/polynomial-evaluation.ipynb)
+  * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/floating-points.ipynb)
+  * [Integrers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/integrers.ipynb)
+  * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/polynomial-evaluation.ipynb)
 * Linear Algebra
-  * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/rotation.ipynb)
+  * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/rotation.ipynb)
   * Matrices
-    * [Decomposition 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/decomposition.ipynb)
-    * [Inverse 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/inverse.ipynb)
-    * [Multiplication 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/linear-algebra/matrices/multiplication.ipynb)
+    * [Decomposition 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/decomposition.ipynb)
+    * [Inverse 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/inverse.ipynb)
+    * [Multiplication 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
-  * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/procedural-generation/random.ipynb)
+  * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/procedural-generation/random.ipynb)
 * Statistics
-  * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/statistics/regression-analysis.ipynb)
+  * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/statistics/regression-analysis.ipynb)
+
+</p>
+</details>
+
+<details><summary>🎯 Show Exercises</summary>
+<p>
+
+TODO
+
+</p>
+</details>
 
 ## 📖 Sources
 
