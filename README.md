@@ -6,10 +6,10 @@ Get started with different mathematical topics heavily used in computer science 
 
 ## 🚩 Table of Contents
 
-*(🏗️ : Not started | 📝 : Started | ✔️ : Written )*
-
 <details><summary>🧩 Show Classes</summary>
 <p>
+
+*(🏗️ : Not started | 📝 : Started | ✔️ : Written )*
 
 * Algebra
   * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/algebra/systems.ipynb)
