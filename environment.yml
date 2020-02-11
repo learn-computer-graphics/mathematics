@@ -6,6 +6,3 @@ dependencies:
   - notebook
   - ipywidgets
   - plotly=4.4
-  - pip
-  - pip:
-    - ipyp5
