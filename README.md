@@ -50,12 +50,25 @@ TODO
 
 ## 👩‍💻 Getting Started
 
-There are multiple ways to view and use our project, the **most simple one** being clicking on the links in the [table of contents](#🚩-Table-of-Contents). You can navigate to the *.ipynb* files from github as well, but there will be a loading time longer than with nbviewer links from the table of contents.
+There are multiple ways to view and use our project :
 
-If you want to **play around with the content**, click on `launch binder` icon in the top of this document. It will take a few minutes to being setup but you will be able to modify anything from your web browser, no need to install anything.
+### `Method 1: Fast static content`
 
-Finally, if you want to have **total control**, no load times, and 3D interactive graphics with no bugs, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). All of our python dependencies are listed in [environment.yml](environment.yml).
+Simply click on the links in the [table of contents](#-Table-of-Contents). You can also navigate to the *.ipynb* files from github, but there will be a loading time. 
 
+(**DISCLAIMER**: *For now, this method does not support interactive graphs so some content might be missing.*)
+
+### `Method 2: Online interactive content`
+
+If you want to **play around with the content**, click on `launch binder` icon in the top of this document. It will take a few minutes to being setup but you will be able to modify anything from your web browser, and access interactive 3D graphs, no need to install anything.
+
+You might need to click on `Cell->Run all` in the top bar once you are inside a notebook to see the graphs.
+
+### `Method 3: Offline interactive content`
+
+Finally, if you want to have **total control**, without load times, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). 
+
+You will need to install dependencies for some notebooks (tough many are present by default). All of our python dependencies are listed in [environment.yml](environment.yml).
 
 ## 👨‍👩‍👦‍👦 Contributing
 
