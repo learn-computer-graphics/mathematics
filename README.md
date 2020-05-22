@@ -12,7 +12,7 @@ Get started with different mathematical topics heavily used in computer science 
 *(🏗️ : Not started | 📝 : Started | 📑 : Needs proofreading | ✔️ : Written )*
 
 * Algebra
-  * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/algebra/systems.ipynb)
+  * [Systems 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/algebra/systems.ipynb)
 * Calculous
   * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/derivation.ipynb)
   * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/integrals.ipynb)
@@ -29,9 +29,9 @@ Get started with different mathematical topics heavily used in computer science 
 * Linear Algebra
   * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/rotation.ipynb)
   * Matrices
-    * [Decomposition 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/decomposition.ipynb)
-    * [Inverse 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/inverse.ipynb)
-    * [Multiplication 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/multiplication.ipynb)
+    * [Decomposition 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/decomposition.ipynb)
+    * [Inverse 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/inverse.ipynb)
+    * [Multiplication 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
   * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/procedural-generation/random.ipynb)
 * Statistics
@@ -47,6 +47,15 @@ TODO
 
 </p>
 </details>
+
+## 👩‍💻 Getting Started
+
+There are multiple ways to view and use our project, the **most simple one** being clicking on the links in the [table of contents](#🚩-Table-of-Contents). You can navigate to the *.ipynb* files from github as well, but there will be a loading time longer than with nbviewer links from the table of contents.
+
+If you want to **play around with the content**, click on `launch binder` icon in the top of this document. It will take a few minutes to being setup but you will be able to modify anything from your web browser, no need to install anything.
+
+Finally, if you want to have **total control**, no load times, and 3D interactive graphics with no bugs, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). All of our python dependencies are listed in [environment.yml](environment.yml).
+
 
 ## 👨‍👩‍👦‍👦 Contributing
 
