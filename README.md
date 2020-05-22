@@ -75,7 +75,11 @@ You will need to install dependencies for some notebooks (tough many are present
 
 Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook. We believe that sharing a consistent style accross our notes will help to understand them better.
 
-To improve reproductability, restart kernel and run all cells before committing changes on notebooks. Note that nbviewer caches files and it might take some time to see your changes online.
+To improve reproductability, **restart kernel and run all cells** before committing changes on notebooks. Note that nbviewer caches files and it might take some time to see your changes online.
+
+If you use IPython Interactive Widget (@interact), be sure to **save your widget state** before committing changes or the graph using it won't be displayed.
+
+![widgetState](img/widget-state.png)
 
 ## 📖 Sources
 
