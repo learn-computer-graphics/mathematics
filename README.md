@@ -9,7 +9,7 @@ Get started with different mathematical topics heavily used in computer science 
 <details><summary>🧩 Show Classes</summary>
 <p>
 
-*(🏗️ : Not started | 📝 : Started | ✔️ : Written )*
+*(🏗️ : Not started | 📝 : Started | 📑 : Needs proofreading | ✔️ : Written )*
 
 * Algebra
   * [Systems 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/algebra/systems.ipynb)
@@ -20,6 +20,8 @@ Get started with different mathematical topics heavily used in computer science 
 * Curves
   * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/polynomial.ipynb)
   * [Splines 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/splines.ipynb)
+* Interpolation
+  * [Radial basis function interpolation 📑](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/interpolation/rbfInterpolation.ipynb)
 * Data Storage
   * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/floating-points.ipynb)
   * [Integrers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/integrers.ipynb)
