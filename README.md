@@ -43,7 +43,10 @@ Get started with different mathematical topics heavily used in computer science 
 <details><summary>🎯 Show Exercises</summary>
 <p>
 
-TODO
+*(🏗️ : Not started | 📝 : Started | 📑 : Needs proofreading | ✔️ : Written )*
+
+* Linear Algebra
+  * [Infiltration Game 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/exercices/infiltration-game.ipynb)
 
 </p>
 </details>
