@@ -54,25 +54,25 @@ There are multiple ways to view and use our project :
 
 ### `Method 1: Fast static content`
 
-Simply click on the links in the [table of contents](#-Table-of-Contents). You can also navigate to the *.ipynb* files from github, but there will be a loading time. 
-
-(**DISCLAIMER**: *For now, this method does not support interactive graphs so some content might be missing.*)
+Simply click on the links in the [table of contents](#-Table-of-Contents). You can also navigate to the *.ipynb* files from github, but there will be a loading time.
 
 ### `Method 2: Online interactive content`
 
-If you want to **play around with the content**, click on `launch binder` icon in the top of this document. It will take a few minutes to being setup but you will be able to modify anything from your web browser, and access interactive 3D graphs, no need to install anything.
+If you want to **play around with the values**, click on `launch binder` icon in the top of this document. It will take a few minutes to being setup but you will be able to modify anything from your web browser. No need to install anything.
 
 You might need to click on `Cell->Run all` in the top bar once you are inside a notebook to see the graphs.
 
 ### `Method 3: Offline interactive content`
 
-Finally, if you want to have **total control**, without load times, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). 
+Finally, if you want to have **total control**, without loading times, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). 
 
 You will need to install dependencies for some notebooks (tough many are present by default). All of our python dependencies are listed in [environment.yml](environment.yml).
 
 ## 👨‍👩‍👦‍👦 Contributing
 
 Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook. We believe that sharing a consistent style accross our notes will help to understand them better.
+
+To improve reproductability, restart kernel and run all cells before committing changes on notebooks. Note that nbviewer caches files and it might take some time to see your changes online.
 
 ## 📖 Sources
 
