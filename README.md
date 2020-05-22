@@ -48,6 +48,10 @@ TODO
 </p>
 </details>
 
+## 👨‍👩‍👦‍👦 Contributing
+
+Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook. We believe that sharing a consistent style accross our notes will help to understand them better.
+
 ## 📖 Sources
 
 ### Classes
