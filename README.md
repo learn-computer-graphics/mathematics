@@ -24,7 +24,7 @@ Get started with different mathematical topics heavily used in computer science 
   * [Radial basis function interpolation 📑](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/interpolation/rbfInterpolation.ipynb)
 * Data Storage
   * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/floating-points.ipynb)
-  * [Integrers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/integrers.ipynb)
+  * [Integers 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/integers.ipynb)
   * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/polynomial-evaluation.ipynb)
 * Linear Algebra
   * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/rotation.ipynb)
