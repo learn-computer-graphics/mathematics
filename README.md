@@ -67,13 +67,13 @@ You might need to click on `Cell->Run all` in the top bar once you are inside a 
 
 ### `Method 3: Offline interactive content`
 
-Finally, if you want to have **total control**, without loading times, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (for the time being, jupyterlab does not support interactive 3D graphs). 
+Finally, if you want to have **total control**, without loading times, you need to install [Anaconda python distribution](https://www.anaconda.com/), download this repository (green button at the top right) and launch *jupyter notebook* (jupyterlab works as well, but you need to install plotly extension to display interactive 3D graph with the command `jupyter labextension install jupyterlab-plotly`). 
 
-You will need to install dependencies for some notebooks (tough many are present by default). All of our python dependencies are listed in [environment.yml](environment.yml).
+You might need to install other dependencies with `conda install` for some notebooks (tough many are present by default). All of our python dependencies are listed in [environment.yml](environment.yml).
 
 ## 👨‍👩‍👦‍👦 Contributing
 
-Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook. We believe that sharing a consistent style accross our notes will help to understand them better.
+Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook, and use [matplotlib](https://matplotlib.org/) and [plotly](https://plotly.com/python/) for your graphs. We believe that sharing a consistent style accross our notes will help to understand them better.
 
 To improve reproductability, **restart kernel and run all cells** before committing changes on notebooks. Note that nbviewer caches files and it might take some time to see your changes online.
 
@@ -81,7 +81,7 @@ If you use IPython Interactive Widget (@interact), be sure to **save your widget
 
 ![widgetState](img/widget-state.png)
 
-You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to export them as editable svg and save them under the `diagram` folder (just remove the .drawio file extension). This way we can show them in the notebooks, and we can edit them anytime with draw.io.
+You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to export them as editable svg, with a white background, and save them under the `diagram` folder (just remove the .drawio file extension). This way we can show them in the notebooks, and we can edit them anytime with draw.io.
 
 ## 📖 Sources
 
