@@ -26,6 +26,9 @@ Get started with different mathematical topics heavily used in computer science 
   * [Floating points 📝](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/floating-points.ipynb)
   * [Integers 📑](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/integers.ipynb)
   * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-storage/polynomial-evaluation.ipynb)
+* Data Structure
+  * [Kd Tree 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-structures/kd-tree.ipynb)
+  * [Bounding Volume Hierarchy 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/data-structures/bounding-volume-hierarchy.ipynb)
 * Linear Algebra
   * [Rotation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/rotation.ipynb)
   * Matrices
@@ -34,12 +37,12 @@ Get started with different mathematical topics heavily used in computer science 
     * [Multiplication 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/linear-algebra/matrices/multiplication.ipynb)
 * Procedural Generation
   * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/procedural-generation/random.ipynb)
-* Statistics
-  * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/statistics/regression-analysis.ipynb)
 * Rendering
   * [Raymarching 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/raymarching.ipynb)
   * [Raytracing 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/raytracing.ipynb)
   * [Rasterisation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/rasterisation.ipynb)
+* Statistics
+  * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/statistics/regression-analysis.ipynb)
 
 </p>
 </details>
