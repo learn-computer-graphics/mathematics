@@ -36,13 +36,16 @@ Get started with different mathematical topics heavily used in computer science 
   * [Random 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/procedural-generation/random.ipynb)
 * Statistics
   * [Regression analysis 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/statistics/regression-analysis.ipynb)
+* Rendering
+  * [Raymarching 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/raymarching.ipynb)
+  * [Raytracing 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/raytracing.ipynb)
+  * [Rasterisation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/rendering/rasterisation.ipynb)
 
 </p>
 </details>
 
 <details><summary>🎯 Show Exercises</summary>
 <p>
-
 *(🏗️ : Not started | 📝 : Started | 📑 : Needs proofreading | ✔️ : Written )*
 
 * Linear Algebra
@@ -87,7 +90,7 @@ You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to ex
 
 ### Classes
 
-| Teacher | Curriculum
+| Teacher | Curriculum |
 | --- | --- |
 | [Vincent Nozick](http://www-igm.univ-mlv.fr/~vnozick/) | IMAC |
 
@@ -103,11 +106,12 @@ You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to ex
 
 ### Websites
 
-| Name | Founder(s)
+| Name | Founder(s) |
 | --- | --- |
 | [Khan Academy](https://www.khanacademy.org/profile/guillaumehaerninck/courses) | Salman Khan |
 | [Immersive Math](http://immersivemath.com/ila/index.html) | Jacob Ström, Kalle Åström, and Tomas Akenine-Möller |
 | [Collision Detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) | Jeffrey Thompson |
+| [Red blob games](https://www.redblobgames.com/) | Amit Patel |
 
 ### Videos
 
@@ -115,3 +119,4 @@ You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to ex
 | --- | --- |
 | [Math for Game Developers](https://www.youtube.com/watch?v=sKCF8A3XGxQ&list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My&index=2&t=9s) | Jorge Rodriguez |
 | [Essence of linear algebra](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PL_w8oSr1JpVCZ5pKXHKz6PkjGCbPbSBYv) | 3Blue1Brown |
+| [Computer graphics series](https://www.youtube.com/playlist?list=PLzH6n4zXuckrPkEUK5iMQrQyvj9Z6WCrm) | Computerphile |
