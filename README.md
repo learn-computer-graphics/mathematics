@@ -16,7 +16,7 @@ Get started with different mathematical topics heavily used in computer science 
 * Calculous
   * [Derivation 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/derivation.ipynb)
   * [Integrals 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/integrals.ipynb)
-  * [Root Finding 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/root-finding.ipynb)
+  * [Root Finding 📑](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/calculous/root-finding.ipynb)
 * Curves
   * [Polynomial 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/polynomial.ipynb)
   * [Splines 🏗️](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/classes/curves/splines.ipynb)
