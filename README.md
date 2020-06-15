@@ -106,6 +106,7 @@ You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to ex
 | [Mathematics for 3D Game Programming and Computer Graphics](https://www.mathfor3dgameprogramming.com/) | Eric Lengyel | <img width="80" src="https://images-na.ssl-images-amazon.com/images/I/61klmJ8tv9L._SX394_BO1,204,203,200_.jpg"> |
 | [Real-Time Rendering, 4rd Edition](https://www.realtimerendering.com/) | Tomas Akenine-Möller, Eric Haines, and Naty Hoffman | <img width="80" src="https://www.realtimerendering.com/rtr4_thumb.jpg"> |
 | [Multiple View Geometry in Computer Vision, 2nd Edition](https://www.robots.ox.ac.uk/~vgg/hzbook/) | Richard Hartley and Andrew Zisserman | <img width="80" src="https://www.robots.ox.ac.uk/~vgg/hzbook/hzcover2.jpg"> |
+| [Introduction to Algorithm](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | Richard Hartley and Andrew Zisserman | <img width="80" src="https://m.media-amazon.com/images/I/51fgDX37U7L._SX260_.jpg"> |
 
 ### Websites
 
