@@ -1,0 +1,14 @@
+- file: README.md
+
+- part: Calculous
+  chapters:
+  - file: classes/calculous/derivative
+  - file: classes/calculous/root-finding
+
+- part: Interpolation
+  chapters:
+  - file: classes/interpolation/rbf-interpolation
+
+- part: Data Storage
+  chapters:
+  - file: classes/data-storage/integers

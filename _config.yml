@@ -1,0 +1,12 @@
+# Book settings
+title: LCG - Mathematics
+author: Learn Computer Graphics team
+logo: logo.png
+
+repository:
+  url: https://github.com/learn-computer-graphics/mathematics
+
+html:
+  favicon : "favicon.ico"
+  use_issues_button: true
+  use_repository_button: true
