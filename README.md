@@ -1,18 +1,10 @@
 # Mathematics for Computer Graphics
 
+[![RSS Badge](https://img.shields.io/static/v1?label=RSS&message=Follow&color=success&logo=rss)](https://github.com/learn-computer-graphics/mathematics/commits.atom)
+
 Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them. 
 
 Our content is [viewable online](https://learn-computer-graphics.github.io/mathematics/) with the help of Jupyter Book. If you want to know more about our organisation, you can check [our blog](https://learn-computer-graphics.github.io/blog/).
-
-## 👨‍👩‍👦‍👦 Contributing
-
-Please **do** ! But try to follow [this template](https://nbviewer.jupyter.org/github/learn-computer-graphics/mathematics/blob/master/template.ipynb) for your notebook, and use [matplotlib](https://matplotlib.org/) and [plotly](https://plotly.com/python/) for your graphs. We believe that sharing a consistent style accross our notes will help to understand them better.
-
-To improve reproductability, **restart kernel and run all cells** before committing changes on notebooks. Note that nbviewer caches files and it might take some time to see your changes online.
-
-If you use IPython Interactive Widget (@interact), be sure to **save your widget state** before committing changes or the graph using it won't be displayed.
-
-You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to export them as editable svg, with a white background, and save them under the `diagram` folder (just remove the .drawio file extension). This way we can show them in the notebooks, and we can edit them anytime with draw.io.
 
 ## 📖 Sources
 

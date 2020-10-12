@@ -10,3 +10,4 @@ html:
   favicon : "favicon.ico"
   use_issues_button: true
   use_repository_button: true
+  google_analytics_id: UA-180280643-2
