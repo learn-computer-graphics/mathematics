@@ -12,8 +12,6 @@ To improve reproductability, **restart kernel and run all cells** before committ
 
 If you use IPython Interactive Widget (@interact), be sure to **save your widget state** before committing changes or the graph using it won't be displayed.
 
-![widgetState](img/widget-state.png)
-
 You can make diagrams with [draw.io](https://app.diagrams.net/), make sure to export them as editable svg, with a white background, and save them under the `diagram` folder (just remove the .drawio file extension). This way we can show them in the notebooks, and we can edit them anytime with draw.io.
 
 ## 📖 Sources
