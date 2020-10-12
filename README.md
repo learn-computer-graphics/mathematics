@@ -1,8 +1,8 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/learn-computer-graphics/mathematics/master)
-
 # Mathematics for Computer Graphics
 
-Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them. Our content is [viewable online](https://learn-computer-graphics.github.io/mathematics/) with the help of Jupyter Book.
+Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them. 
+
+Our content is [viewable online](https://learn-computer-graphics.github.io/mathematics/) with the help of Jupyter Book. If you want to know more about our organisation, you can check [our blog](https://learn-computer-graphics.github.io/blog/).
 
 ## 👨‍👩‍👦‍👦 Contributing
 
