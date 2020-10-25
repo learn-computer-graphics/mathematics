@@ -33,6 +33,7 @@ Our content is [viewable online](https://learn-computer-graphics.github.io/mathe
 | [Immersive Math](http://immersivemath.com/ila/index.html) | Jacob Ström, Kalle Åström, and Tomas Akenine-Möller |
 | [Collision Detection](http://www.jeffreythompson.org/collision-detection/table_of_contents.php) | Jeffrey Thompson |
 | [Red blob games](https://www.redblobgames.com/) | Amit Patel |
+| [Math LibreTexts](https://math.libretexts.org/) | Open Textbook Pilot Project |
 
 ### Videos
 
