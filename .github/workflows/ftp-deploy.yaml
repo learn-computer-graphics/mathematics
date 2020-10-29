@@ -23,7 +23,7 @@ jobs:
     - name: Build the book
       run: |
         jupyter-book build .
-        mv _build mathematics
+        mv _build/html mathematics
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
