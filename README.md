@@ -4,7 +4,7 @@
 
 Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them. 
 
-Our content is [viewable online](https://learn-computer-graphics.github.io/mathematics/) with the help of Jupyter Book. If you want to know more about our organisation, you can check [our blog](https://learn-computer-graphics.github.io/blog/).
+Our content is [viewable online](https://mathematics.learn-computer-graphics.com/) with the help of Jupyter Book.
 
 ## 📖 Sources
 

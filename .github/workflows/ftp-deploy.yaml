@@ -1,4 +1,4 @@
-name: deploy-book
+name: ftp-deploy
 
 on:
   push:
@@ -22,10 +22,12 @@ jobs:
 
     - name: Build the book
       run: |
-        jupyter-book build .
+        jupyter-book build mathematics
 
-    - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v3.6.1
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+    - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ftp://ftp.cluster023.hosting.ovh.net/
+          ftp-username: guillaumpm
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./mathematics/
