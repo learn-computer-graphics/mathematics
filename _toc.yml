@@ -1,9 +1,9 @@
-- file: README.md
+- file: index.md
 
-- part: Calculous
+- part: Calculus
   chapters:
-  - file: classes/calculous/derivative
-  - file: classes/calculous/root-finding
+  - file: classes/calculus/derivative
+  - file: classes/calculus/root-finding
 
 - part: Interpolation
   chapters:
