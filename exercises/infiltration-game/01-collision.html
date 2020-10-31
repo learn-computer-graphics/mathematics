@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.min.js"></script>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.dom.min.js"></script>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://deps.learn-computer-graphics.com/libs/p5/style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+  class Entity {
+    constructor(x, y, size) {
+      this.pos = new p5.Vector(x, y)
+      this.size = size
+    }
+
+    display(fColor, sColor = 'black', weight = 1) {
+      fill(fColor)
+      stroke(sColor)
+      strokeWeight(weight)
+      circle(this.pos.x, this.pos.y, this.size);
+    }
+    
+    get x() { return this.pos.x }
+    get y() { return this.pos.y }
+  }
+
+  function setup() {
+    createCanvas(800, 650)
+  }
+
+  function draw() {
+    background(220)
+    
+    // Display Entities
+    const p = new Entity(mouseX, mouseY, 20) // Player
+    p.display('white')
+    const e = new Entity(300, 300, 20) // Enemy
+    e.display('red');
+    const o = new Entity(500, 200, 100) // Obstacle
+    o.display('blue')
+    
+    // Player to Enemy vector
+    const a = new p5.Vector(e.x - p.x, e.y - p.y)
+    stroke('red')
+    text('a', p.x + (a.x / 2), p.y + (a.y / 2))
+    line(p.x, p.y, p.x + a.x, p.y + a.y)
+    
+    // Player to obstacle vector
+    const b = new p5.Vector(o.x - p.x, o.y - p.y)
+    stroke('blue')
+    text('b', p.x + (b.x / 2), p.y + (b.y / 2))
+    line(p.x, p.y, p.x + b.x, p.y + b.y)
+    
+    // Parrallel vector
+    const aNorm = a.copy().normalize()
+    const bPar = aNorm.mult(aNorm.dot(b))
+    stroke('yellow')
+    text('b||', p.x + (bPar.x / 2), p.y + (bPar.y / 2))
+    line(p.x, p.y, p.x + bPar.x, p.y + bPar.y)
+    
+    // Perpendicular vector
+    const bPerp = p5.Vector.sub(b, bPar)
+    stroke('green')
+    text('b⊥', p.x + bPar.x + (bPerp.x / 2), p.y + bPar.y + (bPerp.y / 2))
+    line(p.x + bPar.x, p.y + bPar.y, p.x + bPar.x + bPerp.x, p.y + bPar.y + bPerp.y)
+    
+    // Check collision
+    if (bPerp.mag() > o.size / 2)
+      text('No Collision', 50, 50)
+    else
+      text('Collision', 50, 50)
+  }
+</script>
+</body>
+</html>
