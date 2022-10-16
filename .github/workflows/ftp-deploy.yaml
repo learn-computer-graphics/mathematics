@@ -27,7 +27,6 @@ jobs:
       run: |
         jupyter-book build .
         mv _build/html mathematics
-        cp -r exercises/*.html mathematics
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
