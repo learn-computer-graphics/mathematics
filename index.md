@@ -1,6 +1,6 @@
 # Introduction
 
-Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them.
+Get started with different mathematical topics heavily used in computer science and graphic programming. Understand how they work and develop an intuition to know when to use them !
 
 ```{tip}
 If you are on your phone consider browsing through this <a href="https://mathematics.learn-computer-graphics.com/" target="_blank">link</a> for better performance.
