@@ -1,14 +1,13 @@
-- file: index.md
-
-- part: Calculus
+format: jb-book
+root: index
+parts:
+- caption: Calculus
   chapters:
   - file: classes/calculus/derivative
   - file: classes/calculus/root-finding
-
-- part: Interpolation
+- caption: Interpolation
   chapters:
   - file: classes/interpolation/rbf-interpolation
-
-- part: Data Storage
+- caption: Data Storage
   chapters:
   - file: classes/data-storage/integers

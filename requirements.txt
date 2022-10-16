@@ -1,5 +1,7 @@
-jupyter-book
-matplotlib
-numpy
-pandas
-plotly
+# tested on python 3.9.13
+jupyter-book>=0.13.1
+matplotlib>=3.6.1
+numpy>=1.23.4
+pandas>=1.5.0
+plotly>=5.10.0
+ipywidgets>=7.7.2
