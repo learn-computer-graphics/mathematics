@@ -17,6 +17,9 @@ jobs:
         python-version: '3.9'
         cache: 'pip' # caching pip dependencies
 
+    - name: Install pip wheel
+        run: pip install wheel
+
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
