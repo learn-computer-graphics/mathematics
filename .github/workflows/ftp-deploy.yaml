@@ -29,9 +29,9 @@ jobs:
         mv _build/html mathematics
 
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        ftp-server: ftp://ftp.cluster023.hosting.ovh.net/
-        ftp-username: guillaumpm
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ftp://ftp.cluster023.hosting.ovh.net/
+        username: guillaumpm
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./mathematics/
