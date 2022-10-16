@@ -35,3 +35,4 @@ jobs:
         username: guillaumpm
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./mathematics/
+        server-dir: mathematics/
