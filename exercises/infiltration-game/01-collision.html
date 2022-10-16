@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.min.js"></script>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.dom.min.js"></script>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://deps.learn-computer-graphics.com/libs/p5/style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+class Entity {
+  constructor(x, y, size) {
+    this.pos = new p5.Vector(x, y)
+    this.size = size
+  }
+
+  display(fColor, sColor = 'black', weight = 1) {
+    fill(fColor)
+    stroke(sColor)
+    strokeWeight(weight)
+    circle(this.pos.x, this.pos.y, this.size);
+  }
+
+  get x() {
+    return this.pos.x
+  }
+  get y() {
+    return this.pos.y
+  }
+}
+
+function drawArrowAndText(base, vec, myColor, myText) {
+  push();
+  stroke(myColor);
+  strokeWeight(3);
+  fill(myColor);
+  translate(base.x, base.y);
+  line(0, 0, vec.x, vec.y);
+  rotate(vec.heading());
+  let arrowSize = 7;
+  translate(vec.mag() - arrowSize, 0);
+  triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
+  pop();
+  
+  stroke(myColor)
+  fill(myColor)
+  text(myText, base.x + (vec.x / 2) - 10, base.y + (vec.y / 2) - 10)
+}
+
+function between(x, min, max) {
+  return x >= min && x <= max;
+}
+
+function setup() {
+  createCanvas(800, 650)
+}
+
+function draw() {
+  background(200)
+
+  // Display Entities
+  const p = new Entity(mouseX, mouseY, 20) // Player
+  p.display('white')
+  const e = new Entity(300, 300, 20) // Enemy
+  e.display('purple');
+  const o = new Entity(500, 200, 100) // Obstacle
+  o.display('orange')
+
+  // Player to Enemy vector
+  const a = new p5.Vector(e.x - p.x, e.y - p.y)
+  drawArrowAndText(p, a, 'red', 'a')
+  
+  // Player to obstacle vector
+  const b = new p5.Vector(o.x - p.x, o.y - p.y)
+  drawArrowAndText(p, b, 'blue', 'b')
+
+  // Parrallel vector
+  const aNorm = a.copy().normalize()
+  const bPar = aNorm.mult(aNorm.dot(b))
+  drawArrowAndText(p, bPar, 'yellow', 'b||')
+
+  // Perpendicular vector
+  const bPerp = p5.Vector.sub(b, bPar)
+  drawArrowAndText(p5.Vector.add(p.pos, bPar), bPerp, 'green', 'b⊥')
+  
+  // TODO Check if obstacle's projected point is on the player-enemy segment
+  // Multiple way to handle point-segment collision, list them all
+  // - Compare coordinates of the point against the segment p <= q <= r or r <= q <= p
+  // - Check if the lengths of the side vectors to the point equals to the segment length
+  // - In 3D there is something to do with the cross product
+  const oPoint = new p5.Vector(p.x + bPar.x, p.y + bPar.y)
+  circle(oPoint.x, oPoint.y, 5)
+  
+  // Check distance
+  if (bPerp.mag() < o.size / 2)
+    text('Collision', 50, 50)
+  else
+    text('No Collision', 50, 50)
+}
+</script>
+</body>
+</html>
