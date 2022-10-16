@@ -1,5 +1,5 @@
 # tested on python 3.9.13
-wheel>=0.37.1
+wheel
 jupyter-book>=0.13.1
 matplotlib>=3.6.1
 numpy>=1.23.4
