@@ -27,7 +27,7 @@ jobs:
       run: |
         jupyter-book build .
         mv _build/html mathematics
-        find ./exercices/ -name '*.html' | cpio -pdm ./mathematics/
+        find ./exercises/ -name '*.html' | cpio -pdm ./mathematics/exercises/
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
