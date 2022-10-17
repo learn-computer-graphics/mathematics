@@ -26,7 +26,7 @@ jobs:
     - name: Build the book
       run: |
         jupyter-book build .
-        mv _build/html mathematics
+        find . -name '*.html' ! -path ./_build/* | cpio -d ./_build/html/
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
@@ -34,5 +34,5 @@ jobs:
         server: ftp.cluster023.hosting.ovh.net
         username: guillaumpm
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./mathematics/
+        local-dir: ./_build/html/
         server-dir: mathematics/
