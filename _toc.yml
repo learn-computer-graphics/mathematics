@@ -5,9 +5,17 @@ parts:
   chapters:
   - file: classes/calculus/derivative
   - file: classes/calculus/root-finding
-- caption: Interpolation
-  chapters:
-  - file: classes/interpolation/rbf-interpolation
+
 - caption: Data Storage
   chapters:
   - file: classes/data-storage/integers
+
+- caption: Interpolation
+  chapters:
+  - file: classes/interpolation/rbf-interpolation
+
+- caption: Linear Algebra
+  chapters:
+  - file: classes/linear-algebra/exercices/index
+    sections:
+    - file: classes/linear-algebra/exercices/stealth-game
