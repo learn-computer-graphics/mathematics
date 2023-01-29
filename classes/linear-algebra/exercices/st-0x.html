@@ -77,10 +77,10 @@ function draw() {
 
   // Parrallel vector
   const aNorm = a.copy().normalize()
-  const bPar = aNorm.mult(aNorm.dot(b))
+  const bPar = aNorm.mult(aNorm.dot(b)) //  projection of b unto a (a needs to be a unit vector)
   drawArrowAndText(p, bPar, 'yellow', 'b||')
 
-  // Perpendicular vector
+  // Perpendicular vector, going from bPar to B
   const bPerp = p5.Vector.sub(b, bPar)
   drawArrowAndText(p5.Vector.add(p.pos, bPar), bPerp, 'green', 'b⊥')
   
