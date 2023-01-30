@@ -8,16 +8,12 @@
 <body>
 <script>
 
-function drawArrow(from, to) {
+function drawLine(from, to) {
   push();
   {
     translate(from.x, from.y);
     line(0, 0, to.x, to.y);
     rotate(to.heading());
-
-    const arrowSize = 20;
-    translate(to.mag() - arrowSize, 0);
-    triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
   }
   pop();
 }
@@ -33,28 +29,26 @@ function draw() {
   const size = 40;
 
   const npcPos = createVector(350, 200)
-  const npcDir = createVector(50, 40)
+  const npcDir = createVector(-150, -100)
+  const npcFOV = radians(60);
+  drawLine(npcPos, p5.Vector.rotate(npcDir, npcFOV / 2))
+  drawLine(npcPos, p5.Vector.rotate(npcDir, -npcFOV / 2))
   circle(npcPos.x, npcPos.y, size)
   text("NPC", npcPos.x, npcPos.y - textOffset)
-  drawArrow(npcPos, npcDir);
 
   const playerPos = createVector(mouseX, mouseY);
   text("Player", playerPos.x, playerPos.y - textOffset)
   circle(playerPos.x, playerPos.y, size)
-  let isInFront = true
+  let isInsideFOV = true
 
   // WRITE CODE HERE
-  const npcToPlayer = playerPos.sub(npcPos);
-  if (npcDir.dot(npcToPlayer) < 0)
-    isInFront = false
 
-  // drawArrow(npcPos, npcToPlayer)
   // END WRITE CODE HERE
 
-  if (isInFront)
-    text("Player is in front of the NPC", 10, 20)
+  if (isInsideFOV)
+    text("Player is inside the NPC FOV", 10, 20)
   else
-    text("Player is behind the NPC", 10, 20)
+    text("Player is outside the NPC FOV", 10, 20)
 }
 </script>
 </body>
