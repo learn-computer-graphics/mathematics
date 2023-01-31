@@ -42,7 +42,15 @@ function draw() {
   let isInsideFOV = false
 
   // WRITE CODE HERE
-
+  const npcToPlayerUnit = playerPos.sub(npcPos).normalize()
+  const npcDirUnit = npcDir.copy().normalize()
+  const cosTheta = npcDirUnit.dot(npcToPlayerUnit)
+  const isInFront = cosTheta > 0
+  if (isInFront)
+  {
+    const theta = Math.acos(cosTheta)
+    isInsideFOV = theta < (npcFOV / 2)
+  }
   // END WRITE CODE HERE
 
   if (isInsideFOV)
