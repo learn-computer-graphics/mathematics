@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://deps.learn-computer-graphics.com/libs/p5/style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+class Entity {
+  constructor(x, y, size, name, color = 'white') {
+    this.pos = new p5.Vector(x, y)
+    this.size = size
+    this.name = name
+    this.color = color
+  }
+
+  display() {
+    push()
+    {
+      fill(this.color)
+      circle(this.pos.x, this.pos.y, this.size)
+    }
+    pop()
+    text(this.name, this.pos.x, this.pos.y - this.size / 1.5)
+  }
+
+  get x() { return this.pos.x }
+  get y() { return this.pos.y }
+}
+
+function drawArrow(from, to) {
+  push()
+  {
+    translate(from.x, from.y)
+    line(0, 0, to.x, to.y)
+    rotate(to.heading())
+
+    const arrowSize = 20
+    translate(to.mag() - arrowSize, 0)
+    triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0)
+  }
+  pop();
+}
+
+function drawArrowAndText(from, to, color, message) {
+  push()
+  {
+    stroke(color)
+    strokeWeight(2)
+    fill(color)
+    drawArrow(from, to)
+  }
+  pop()
+  
+  push()
+  {
+    stroke(color)
+    fill(color)
+    text(message, from.x + (to.x / 2) - 10, from.y + (to.y / 2) - 10)
+  }
+  pop()
+}
+
+function setup() {
+  createCanvas(700, 400)
+}
+
+function draw() {
+  background(200)
+
+  const player = new Entity(mouseX, mouseY, 40, 'Player')
+  const npc = new Entity(300, 300, 40, 'NPC')
+  const obstacle = new Entity(500, 200, 100, 'Obstacle', 'black')
+  player.display()
+  npc.display()
+  obstacle.display()
+
+  const playerToNpc = new p5.Vector(npc.x - player.x, npc.y - player.y)
+  const playerToObstacle = new p5.Vector(obstacle.x - player.x, obstacle.y - player.y)
+  drawArrowAndText(player, playerToObstacle, 'blue', 'b')
+  drawArrowAndText(player, playerToNpc, 'red', 'a')
+
+  let playerCanSeeNPC = true
+
+  // WRITE CODE HERE
+  const npcToObstacle = new p5.Vector(obstacle.x - npc.x, obstacle.y - npc.y)
+  //drawArrowAndText(npc, npcToObstacle, 'grey', '')
+  const obstacleIsBetweenNpcAndPlayer = npcToObstacle.dot(playerToObstacle) < 0
+  if (obstacleIsBetweenNpcAndPlayer)
+  {
+    // Projection of b unto a (a needs to be a unit vector)
+    const playerToNpcUnit = playerToNpc.copy().normalize()
+    const bPar = playerToNpcUnit.mult(playerToNpcUnit.dot(playerToObstacle))
+    //drawArrowAndText(player, bPar, 'yellow', 'b||')
+
+    // Perpendicular vector, going from b|| to b
+    const bPerp = p5.Vector.sub(playerToObstacle, bPar)
+    //drawArrowAndText(p5.Vector.add(player.pos, bPar), bPerp, 'green', 'b⊥')
+
+    // Check distance from obstacle
+    const obstacleRadius = obstacle.size / 2
+    playerCanSeeNPC = obstacleRadius < bPerp.mag()
+  }
+  
+  /*
+  if (obstacleIsBetweenNpcAndPlayer)
+    text('Obstacle is between NPC and Player', 10, 40)
+  else
+    text('Obstacle is not between NPC and Player', 10, 40)
+  */
+
+  // END WRITE CODE HERE
+
+  if (playerCanSeeNPC)
+    text('Player and enemy can see each other', 10, 20)
+  else
+    text('Obstacle is obstructing player to enemy line of sight', 10, 20)
+}
+</script>
+</body>
+</html>

@@ -9,13 +9,13 @@
 <script>
 
 function drawLine(from, to) {
-  push();
+  push()
   {
-    translate(from.x, from.y);
-    line(0, 0, to.x, to.y);
-    rotate(to.heading());
+    translate(from.x, from.y)
+    line(0, 0, to.x, to.y)
+    rotate(to.heading())
   }
-  pop();
+  pop()
 }
 
 function setup() {
@@ -25,8 +25,8 @@ function setup() {
 function draw() {
   background(200)
 
-  const textOffset = 30;
-  const size = 40;
+  const textOffset = 30
+  const size = 40
 
   const npcPos = createVector(350, 200)
   const npcDir = createVector(-150, -100)

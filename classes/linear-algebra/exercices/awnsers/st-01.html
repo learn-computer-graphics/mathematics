@@ -9,17 +9,17 @@
 <script>
 
 function drawArrow(from, to) {
-  push();
+  push()
   {
-    translate(from.x, from.y);
-    line(0, 0, to.x, to.y);
-    rotate(to.heading());
+    translate(from.x, from.y)
+    line(0, 0, to.x, to.y)
+    rotate(to.heading())
 
-    const arrowSize = 20;
-    translate(to.mag() - arrowSize, 0);
-    triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
+    const arrowSize = 20
+    translate(to.mag() - arrowSize, 0)
+    triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0)
   }
-  pop();
+  pop()
 }
 
 function setup() {
@@ -29,22 +29,22 @@ function setup() {
 function draw() {
   background(200)
 
-  const textOffset = 30;
-  const size = 40;
+  const textOffset = 30
+  const size = 40
 
   const npcPos = createVector(350, 200)
   const npcDir = createVector(50, 40)
   circle(npcPos.x, npcPos.y, size)
   text("NPC", npcPos.x, npcPos.y - textOffset)
-  drawArrow(npcPos, npcDir);
+  drawArrow(npcPos, npcDir)
 
-  const playerPos = createVector(mouseX, mouseY);
+  const playerPos = createVector(mouseX, mouseY)
   text("Player", playerPos.x, playerPos.y - textOffset)
   circle(playerPos.x, playerPos.y, size)
   let isInFront = true
 
   // WRITE CODE HERE
-  const npcToPlayer = playerPos.sub(npcPos);
+  const npcToPlayer = playerPos.sub(npcPos)
   if (npcDir.dot(npcToPlayer) < 0)
     isInFront = false
 
