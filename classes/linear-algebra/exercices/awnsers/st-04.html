@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://deps.learn-computer-graphics.com/libs/p5/p5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://deps.learn-computer-graphics.com/libs/p5/style.css">
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+class Entity {
+  constructor(x, y, size, name, color = 'white') {
+    this.pos = new p5.Vector(x, y)
+    this.size = size
+    this.name = name
+    this.color = color
+  }
+
+  display() {
+    push()
+    {
+      fill(this.color)
+      circle(this.pos.x, this.pos.y, this.size)
+    }
+    pop()
+    text(this.name, this.pos.x, this.pos.y - this.size / 1.5)
+  }
+
+  get x() { return this.pos.x }
+  get y() { return this.pos.y }
+}
+
+function areSegmentsIntersecting(x1, y1, x2, y2, x3, y3, x4, y4) {
+  // WRITE CODE HERE
+  const denominator = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+  if (denominator == 0)
+    return false
+
+  const t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / denominator
+  const u = ((x1 - x3) * (y1 - y2) - (y1 - y3) * (x1 - x2)) / denominator
+
+  const intersect = t >= 0 && t <= 1 && u >= 0 && u <= 1
+  return intersect
+  // END WRITE CODE HERE
+}
+
+function setup() {
+  createCanvas(700, 400)
+}
+
+function draw() {
+  background(200)
+
+  const player = new Entity(mouseX, mouseY, 40, 'Player')
+  const npc = new Entity(300, 300, 40, 'NPC')
+  player.display()
+  npc.display()
+
+  const segmentsXY = [
+    614, 138, 678, 209,
+    614, 138, 533, 128,
+    533, 128, 678, 209,
+    300, 200, 205, 250,
+    465, 106, 403, 30,
+    452, 352, 587, 286,
+    108, 345, 99, 290
+  ]
+
+  for (var i = 0; i < segmentsXY.length; i += 4)
+  {
+    line(segmentsXY[i], segmentsXY[i + 1], segmentsXY[i + 2], segmentsXY[i + 3])
+  }
+
+  let intersect = false
+
+  // WRITE CODE HERE
+  for (var i = 0; i < segmentsXY.length; i += 4) {
+    if (areSegmentsIntersecting(
+      segmentsXY[i], segmentsXY[i + 1], segmentsXY[i + 2], segmentsXY[i + 3], // Segment 1
+      player.x, player.y, npc.x, npc.y)) // Segment 2
+    {
+      intersect = true
+      break
+    }
+  }
+  // END WRITE CODE HERE
+
+  const playerToNpc = new p5.Vector(npc.x - player.x, npc.y - player.y)
+
+  push()
+  {
+    stroke('red')
+    strokeWeight(2)
+    line(player.x, player.y, npc.x, npc.y)
+  }
+  pop()
+
+  if (intersect)
+    text('Obstacle is obstructing player to enemy line of sight', 10, 20)
+  else
+    text('Player and enemy can see each other', 10, 20)
+}
+</script>
+</body>
+</html>
